@@ -77,7 +77,7 @@
 			<?php
 
 			//copyright
-			$copyright = do_shortcode( avia_get_option('copyright', "&copy; ".__('Copyright','avia_framework')." ".date('Y')." - <a href='".home_url('/')."'>".get_bloginfo('name')."</a>") );
+			$copyright = do_shortcode( avia_get_option('copyright', " ".__('Copyright','avia_framework')." &copy; " .date('Y')." <a href='".home_url('/')."'>".get_bloginfo('name')."</a>") );
 
 			// you can filter and remove the backlink with an add_filter function
 			// from your themes (or child themes) functions.php file if you dont want to edit this file
